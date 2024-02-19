@@ -33,12 +33,7 @@ function App() {
       <input  placeholder={display} id="display" type="text" className="form-control" readonly/>
     </div>
 
-    <div>
-      <button  onClick={()=>handleClick('1')}>1</button>
-      <button  onClick={()=>handleClick('2')}>2</button>
-      <button onClick={()=>handleClick('+')}>+</button>
-      <button onClick={()=>handleClick('%')} >%</button>
-    </div>
+ 
 
     <div>
       <button id='display' onClick={()=>handleClick('7')}>7</button>
@@ -61,9 +56,15 @@ function App() {
     <div>
        {/* <button className="value" onclick="displayContent('0')">0</button>   */}
       <button onClick={()=>handleClick('.')}>.</button>
-      <button onClick={clearDisplay}>AC</button>
-      <button onClick={calculateResult} >=</button>
+     
       <button onClick={()=>handleClick('0')}>0</button>
+      <button onClick={calculateResult} >=</button>
+      <button onClick={()=>handleClick('/')}>/</button>
+    </div>
+    <div>
+    <button onClick={()=>handleClick('%')}>%</button>
+    <button onClick={clearDisplay} className="ac-button">AC</button>
+    
     </div>
   </form>
 

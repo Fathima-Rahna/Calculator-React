@@ -43,3 +43,22 @@ form .display .form-control{
   font-size: 45px;
   box-shadow: none;
 }
+.calculator button .col{
+  border:0;
+  outline:0;
+  width:80px;
+  height: 60px;
+  box-shadow: -8px -8px 15px rgba(255,255,255,0.1),5px 5px 15px rgba(0,0,0,0.2);
+  background: transparent;
+  font-size: 20px;
+  color:yellow;
+  cursor: pointer;
+  margin:8px;
+  transition-duration: 0.5s;
+}
+.calculater .ac-button {
+ border-radius:3px solid;
+  background-color:rgba(255, 255, 0, 0.503); /* Change to the color you desire */
+  color: white; /* Text color */
+  /* Add any other styling properties you want */
+}
